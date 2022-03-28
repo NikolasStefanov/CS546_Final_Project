@@ -1,0 +1,20 @@
+{
+  "name": "lab10",
+  "version": "1.0.0",
+  "description": "my-lab10-module",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Nikolas Stefanov 10439632",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "bcryptjs": "^2.4.3",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.4",
+    "express-session": "^1.17.2",
+    "handlebars": "^4.7.7",
+    "mongodb": "^4.1.4"
+  }
+}

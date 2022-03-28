@@ -1,0 +1,11 @@
+{
+  "name": "cs-546-lab-2",
+  "version": "1.0.0",
+  "description": "My Lab 2 Module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Nikolas Stefanov 10439632",
+  "license": "ISC"
+}

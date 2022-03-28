@@ -1,0 +1,13 @@
+#showList {
+    -webkit-columns: 6;
+       -moz-columns: 6;
+            columns: 6;
+    padding-left: 0;
+}
+
+#showList li {
+list-style-position: inside;
+-webkit-column-break-inside: avoid;
+            page-break-inside: avoid;
+                break-inside: avoid;
+}

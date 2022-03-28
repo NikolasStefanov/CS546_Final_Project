@@ -1,0 +1,14 @@
+{
+  "name": "lab9",
+  "version": "1.0.0",
+  "description": "my-lab9-module",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Nikolas Stefanov 10439632",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

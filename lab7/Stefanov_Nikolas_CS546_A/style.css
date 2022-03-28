@@ -1,0 +1,10 @@
+header ul {
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+header li {
+    display: inline;
+    padding: 14px 16px;
+}

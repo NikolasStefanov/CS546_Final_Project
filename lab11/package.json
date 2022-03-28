@@ -1,0 +1,16 @@
+{
+  "name": "lab11",
+  "version": "1.0.0",
+  "description": "my-lab11-module",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Nikolas Stefanov 10439632",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.4",
+    "xss": "^1.0.10"
+  }
+}

@@ -1,0 +1,21 @@
+<main>
+    <div>
+        <h1>{{{charName}}}</h1>
+        <img alt={{{charName}}} src={{{img_path}}}.{{{img_ext}}}>
+        <p class='description'>
+            {{{desc}}}
+        </p>
+        <h2>Comics</h2>
+        {{#if comicBool}}
+        <ul>
+            {{#each comics}}
+                <li>{{{name}}}</li>
+            {{/each}}
+        </ul>
+        {{else}}
+        <p>{{comics}}</p>
+        {{/if}}
+
+    </div>
+</main>
+

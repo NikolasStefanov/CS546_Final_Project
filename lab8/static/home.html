@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Character Finder</title>
+    <link rel="stylesheet" href="/public/css/site.css">
+  </head>
+  <body>
+    <!-- page content -->
+    <h1>Character Finder</h1>
+    <main>
+        <p>
+            This website allows a user to search for a marrvel character by making a call
+            to the Marvel API. If you would like to search a character, please fill out the form below!
+        </p>
+        <div class = "form-div">
+        <form action="/search" method="POST" class="new-post-form">
+            <label for="searchTerm">Enter Character Name Here:</label>
+                <input type="text" name="searchTerm" placeholder="Name Here" class="full-width-input" id="searchTerm"/>
+            <input type="submit">
+        </form>
+        </div>
+    </main>
+  </body>
+</html>

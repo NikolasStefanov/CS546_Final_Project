@@ -1,0 +1,74 @@
+.is-palindrome{
+    color: #0000FF;
+}
+
+.not-palindrome{
+    color: #FF0000
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    padding: 10px 10px 0px 10px;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    /* Height of the footer*/ 
+    height: 50px;
+    background: grey;
+}
+
+.main{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    top: 60px;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    padding: 10px 10px 0px 10px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    /* Height of the footer*/ 
+    height: 50px;
+    background: grey;
+}
+
+footer p{
+    text-decoration: underline;
+}
+
+.new-post-form{
+    text-align: center;
+}
+
+.button{
+    margin-top: 10px;
+}
+
+.new-post-form .full-width-input {
+	display: flex;
+    align-items: center;
+    justify-content: center;
+	width: 100%;
+}
+
+.ord{
+    list-style-position: inside;
+    text-align: center;
+}
+
+#errorString{
+    color: #FF0000
+}
